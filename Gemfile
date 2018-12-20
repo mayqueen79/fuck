@@ -58,9 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 gem 'faker'
 
-group :development do
-  gem 'sqlite3'
-end
+
 
 group :production do
   gem 'pg'
